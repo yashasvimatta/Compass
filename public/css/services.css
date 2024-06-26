@@ -1,0 +1,80 @@
+/*  Dilip Mahadik, Abhinav - 1002077234
+    Misba, Asfiya - 1002028239
+    Rajesh Neelam, Haswanth  - 1002063344
+    Ponugupati, Maruthi Murali Krishna - 1002069076
+    Vyas, Shalini - 1002087896 */
+
+    /* font-family: Arial, sans-serif */
+
+    /* background-color: #2C3E50;
+    color: #fff; */
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 5%;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: space-between; /* Spread items horizontally */
+    padding: 3% 5%;
+}
+
+.service-item {
+    width: calc(25% - 20px); /* Adjust the width to fit four items in a row with some spacing */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for smaller buttons */
+.service-button {
+    padding: 8px 15px;
+    background-color: #2C3E50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .service-item {
+        width: calc(33.33% - 20px); /* Adjust the width for three items in a row on tablet screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        width: 100%; /* Adjust the width for a single column on phone screens */
+    }
+}
+
+.footer_anchor {
+    text-decoration: none;
+    color: white;
+}

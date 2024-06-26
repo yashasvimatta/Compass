@@ -1,0 +1,120 @@
+/*  Dilip Mahadik, Abhinav - 1002077234
+    Misba, Asfiya - 1002028239
+    Rajesh Neelam, Haswanth  - 1002063344
+    Ponugupati, Maruthi Murali Krishna - 1002069076
+    Vyas, Shalini - 1002087896 */
+
+    /* font-family: Arial, sans-serif */
+
+    /* background-color: #2C3E50;
+    color: #fff; */
+
+
+   
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+header {
+    background-color: 
+    #2C3E50;
+    color: #fff;
+    display: flex;
+    /* Use flexbox to arrange elements horizontally */
+    justify-content: space-between;
+    /* Space between elements */
+    align-items: center;
+    /* Center vertically */
+    padding: 10px 50px;
+
+}
+
+footer {
+    background-color: 
+    #2C3E50;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 1420px;
+    padding: 20px 60px;
+}
+
+.footer_anchor {
+    text-decoration: none;
+    color: white;
+}
+
+
+.homepagecontent {
+    display: flex;
+    /* Use flexbox */
+    align-items: center;
+    /* Center vertically */
+    justify-content: space-between;
+    /* Spread items horizontally */
+    padding: 35px;
+    /* Optional: Add some padding for spacing */
+
+}
+
+.image-and-button {
+    display: flex;
+    /* Use flexbox to arrange image and button horizontally */
+    flex-direction: column;
+    /* Stack image and button vertically */
+    align-items: center;
+    /* Center horizontally */
+    margin-top: 20px;
+    /* Add some spacing between the paragraph and the image-button group */
+
+}
+
+.homepageButton {
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    background-color: 
+    #2C3E50;
+    /* Example background color */
+    color: #ffffff;
+    /* Example text color */
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+
+/* Tablet styles */
+@media screen and (max-width: 1023px) {
+    header {
+        padding: 10px 20px;
+    }
+    .homepagecontent {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    header {
+        padding: 10px 10px;
+    }
+    footer {
+        padding: 10px;
+    }
+    .homepagecontent {
+        padding: 20px;
+    }
+    .image-and-button {
+        margin-top: 10px;
+    }
+    .homepageButton {
+        padding: 8px 16px;
+    }
+}

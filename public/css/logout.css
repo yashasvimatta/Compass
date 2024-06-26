@@ -1,0 +1,51 @@
+/*  Dilip Mahadik, Abhinav - 1002077234
+    Misba, Asfiya - 1002028239
+    Rajesh Neelam, Haswanth  - 1002063344
+    Ponugupati, Maruthi Murali Krishna - 1002069076
+    Vyas, Shalini - 1002087896 */
+
+    /* font-family: Arial, sans-serif */
+
+    /* background-color: #2C3E50;
+    color: #fff; */
+ 
+ /* Basic styling to center the message and button */
+ body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20% 0;
+    margin: 0;
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style the message paragraph */
+p {
+    color: #666;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the "Go to Homepage" button */
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0f2e4d;
+}
